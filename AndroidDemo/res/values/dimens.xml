@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="add_fav_dialog_padding_bottom">20dp</dimen>
+    <dimen name="add_fav_dialog_title_height">48dp</dimen>
+    <dimen name="add_fav_dialog_content_height">145dp</dimen>
+    <dimen name="add_fav_dialog_content_padding">94dp</dimen>
+    <dimen name="add_fav_dialog_title_size">16sp</dimen>
+    <dimen name="add_fav_dialog_add_size">14sp</dimen>
+    <dimen name="add_fav_dialog_options_size">13sp</dimen>
+    <dimen name="add_fav_dialog_add_margin">13.3dp</dimen>
+    <dimen name="add_fav_dialog_icon_margin">12dp</dimen>
+    <dimen name="add_fav_dialog_options_margin">14dp</dimen>
+    <dimen name="oppo_share_panel_title_height">40dp</dimen>
+    <dimen name="oppo_share_panel_title_textsize">16sp</dimen>
+    <dimen name="oppo_share_panel_column_width">50dp</dimen>
+    <dimen name="oppo_share_panel_content_padding">35dp</dimen>
+    <dimen name="oppo_share_panel_column_space_width">30dp</dimen>
+    <dimen name="oppo_share_panel_column_space_height">20dp</dimen>
+    <dimen name="oppo_share_panel_content_margin_top">16dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+</resources>
+
+

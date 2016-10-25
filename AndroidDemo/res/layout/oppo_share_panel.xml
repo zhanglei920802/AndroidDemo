@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+		<View android:layout_width="match_parent"  
+		    android:layout_height="2px"
+		    android:background="#b0b0b0"
+		    />
+		<TextView android:layout_width="match_parent"
+		    android:layout_height="@dimen/oppo_share_panel_title_height"
+		    android:textColor="#333333"
+		    android:textSize="@dimen/oppo_share_panel_title_textsize"
+		    android:gravity="center"
+		    android:text="分享"
+		    />
+			<View android:layout_width="match_parent"  
+		    android:layout_height="1px"
+		    android:background="#e4e4e4"
+		    />
+			<GridView android:layout_width="match_parent"
+			    android:layout_height="0dip"
+			    android:layout_weight="1"
+			    android:columnWidth="@dimen/oppo_share_panel_column_width"
+			    android:numColumns="3"
+			    android:stretchMode="columnWidth"
+			    android:layout_marginTop="@dimen/oppo_share_panel_content_margin_top"
+				android:layout_marginLeft="@dimen/oppo_share_panel_content_padding"
+				android:layout_marginRight="@dimen/oppo_share_panel_content_padding"
+				android:horizontalSpacing="@dimen/oppo_share_panel_column_space_width"
+				android:verticalSpacing="@dimen/oppo_share_panel_column_space_height"
+			    android:id="@+id/share_content"
+			    android:layout_marginBottom="@dimen/oppo_share_panel_column_space_width"
+			    ></GridView>
+</LinearLayout>

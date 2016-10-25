@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.android.apis.view.drag.UnSubItemVIew
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/text_wrapper"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical"
+    android:clickable="false"
+    android:focusable="false"
+    >
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="30.333dp"
+        android:layout_marginLeft="1dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textSize="14dp"/>
+</com.example.android.apis.view.drag.UnSubItemVIew>

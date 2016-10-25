@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/guide_up0"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                tools:context="com.example.android.apis.view.ray.browser.CallBrowserActivity">
+
+    <Button
+        android:id="@+id/btn_call_no_block"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="不拦截"/>
+
+    <Button
+        android:id="@+id/btn_call_none_tips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_call_no_block"
+        android:text="无提示拦截(具体url)"/>
+
+    <Button
+        android:id="@+id/btn_call_dlg_full_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_call_none_tips"
+        android:text="对话框拦截(具体url)"/>
+
+    <Button
+        android:id="@+id/btn_call_tips_dlg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_call_dlg_full_url"
+        android:text="对话框拦截(模糊匹配)"/>
+
+    <Button
+        android:id="@+id/btn_call_tips_dlg_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_call_tips_dlg"
+        android:text="对话框拦截(模糊匹配-整个域名)"/>
+
+    <LinearLayout
+        android:id="@+id/call_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_call_tips_dlg_all"
+        android:orientation="horizontal">
+
+        <com.example.android.apis.view.ray.MyEditText
+            android:id="@+id/edt_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@android:color/black"/>
+
+        <Button
+            android:id="@+id/btn_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="调起浏览器"/>
+
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/switch_navigation_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/call_wrapper"
+        android:text="切换导航栏"
+        android:textColor="@color/solid_blue"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="对话框拦截(模糊匹配-整个域名)"/>
+</RelativeLayout>

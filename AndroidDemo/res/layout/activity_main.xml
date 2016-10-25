@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <com.example.android.apis.view.drag.DragGridView
+        android:id="@+id/dragGridView"
+        android:listSelector="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:verticalSpacing="13dip"
+        android:horizontalSpacing="6dip"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp"
+        android:columnWidth="90dip"
+  	    android:gravity="center"
+        android:numColumns="auto_fit" >
+    </com.example.android.apis.view.drag.DragGridView>
+
+</RelativeLayout>

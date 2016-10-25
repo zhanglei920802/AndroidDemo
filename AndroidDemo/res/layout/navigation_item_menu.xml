@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@null"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/clear_data"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/nav_menu_item_selector_top"
+        android:gravity="center"
+        android:text="清除数据"
+        android:textColor="@color/nav_menu_item_title_color"
+        android:textSize="14dp"
+        android:visibility="visible" />
+
+    <View
+        android:id="@+id/divider1"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@drawable/nav_menu_item_divide_line"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/move_top"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/nav_menu_item_selector_middle"
+        android:gravity="center"
+        android:text="置顶"
+        android:textColor="@color/nav_menu_item_title_color"
+        android:textSize="14dp" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@drawable/nav_menu_item_divide_line" />
+
+    <TextView
+        android:id="@+id/remove"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/nav_menu_item_selector_bottom"
+        android:gravity="center"
+        android:text="移除"
+        android:textColor="@color/nav_menu_item_title_color"
+        android:textSize="14dp" />
+
+</LinearLayout>
